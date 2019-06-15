@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190308171037_start.cs" />
+    <Compile Remove="Migrations\20190308171100_start.cs" />
+    <Compile Remove="Migrations\20190311152510_start.cs" />
+    <Compile Remove="Migrations\20190318202111_start2.cs" />
+    <Compile Remove="Migrations\20190318202152_start.cs" />
+    <Compile Remove="Migrations\20190319145205_start.cs" />
+    <Compile Remove="Migrations\20190319150724_start.cs" />
+    <Compile Remove="Migrations\20190319151229_start.cs" />
+    <Compile Remove="Migrations\20190319173858_start.cs" />
+    <Compile Remove="Migrations\20190319174437_start.cs" />
+    <Compile Remove="Migrations\20190319182005_start.cs" />
+    <Compile Remove="Migrations\20190319182702_start.cs" />
+    <Compile Remove="Migrations\20190319190259_start.cs" />
+    <Compile Remove="Migrations\20190320130625_start.cs" />
+    <Compile Remove="Migrations\20190320132522_uploadcourses.cs" />
+    <Compile Remove="Migrations\20190320133433_oncemore.cs" />
+    <Compile Remove="Migrations\20190320133517_start.cs" />
+    <Compile Remove="Migrations\20190320185238_start.cs" />
+    <Compile Remove="Migrations\20190320190613_start2.cs" />
+    <Compile Remove="Migrations\20190320191333_start3.cs" />
+    <Compile Remove="Migrations\20190320191426_start3.cs" />
+    <Compile Remove="Migrations\20190321144303_blah2.cs" />
+    <Compile Remove="Migrations\20190405174134_firstIdentityServerMigration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enterprise.Models\Enterprise.Models.csproj" />
+  </ItemGroup>
+
+</Project>
